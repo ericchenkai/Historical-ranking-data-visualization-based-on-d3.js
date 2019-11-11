@@ -21,7 +21,7 @@
   // 开启auto_sort可以实现时间的自动补间。
   // Auto Sort by Time
   // Please ensure using standard datetime format (YYYY-MM-DD HH:MM) when this term is enabled!!!
-  auto_sort: false,
+  auto_sort: true,
 
   // 时间格式化
   timeFormat: "%Y-%m-%d",
@@ -54,18 +54,18 @@
 
   // 附加信息内容。
   // left label
-  itemLabel: "左侧文字",
+  // itemLabel: "左侧文字",
 
   // right label
-  typeLabel: "右侧文字",
+  // typeLabel: "右侧文字",
 
 
   // 榜首项目信息的水平位置 。
   // Top item information horizontal location
   item_x: 250,
 
-  // 时间点间隔时间。
-  interval_time: 1,
+  // 时间点间隔时间。default 1
+  interval_time: 5,
 
   // 上方文字水平高度。
   text_y: -50,
@@ -85,7 +85,8 @@
   use_counter: false,
   // 每个时间节点对于计数器的步长。
   // 比如时间节点日期的间隔可能为1周（七天），那么step的值就应该为7。
-  step: 1,
+  // default 1
+  step: 365,
 
   //////////////////////////////////////////////////////////////////////////////
   // 格式化数值
